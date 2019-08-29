@@ -1,4 +1,5 @@
 //使いまわし可能のコンポーネントを用意(固定部品として使ってもいいかも...?)
+
 //click部品
 Vue.component('click',{
 	data:function(){

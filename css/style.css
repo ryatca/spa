@@ -1,0 +1,15 @@
+#wrapper{
+	margin-top: 4rem;
+}
+
+.shadow-deep{
+	box-shadow: 7px 0 10px 0 #ccc;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
