@@ -102,66 +102,68 @@ const works = {
 		<div id="Works" class="row shadow-lite con-radius mb-4">
 			<div class="col-lg-12 col-sm-12 mb-4">
 				<h2 class="text-center fonts-Orbitron mt-2 mb-2"><img src="img/works.svg" alt="" /> Works</h2>
-			<div class="row">
+				<div class="row">
 
-				<div class="col-lg-4 col-md-6 col-sm-12 mb-4 px-2">
-					<a href="https://jquery-d2f44.firebaseapp.com/" target="_blank" class="w-100">
-						<div class="card h-100 hover-shadow">
-							<img src="img/mogura.jpg" alt="card-img img-thumbnail" class="card-img-top"/>
-							<div class="card-body">
-								<h4 class="card-title text-none">モグラたたき</h4>
-								<p class="card-text text-none">学校祭の時に作ったゲームです。何匹叩いたらクリアみたいなものはありません。ハイスコアだけ目指して頑張ってください。</p>
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4 px-2">
+						<a href="https://jquery-d2f44.firebaseapp.com/" target="_blank" class="w-100">
+							<div class="card h-100 hover-shadow">
+								<img src="img/mogura.jpg" alt="card-img img-thumbnail" class="card-img-top"/>
+								<div class="card-body">
+									<h4 class="card-title text-none">モグラたたき</h4>
+									<p class="card-text text-none">学校祭の時に作ったゲームです。何匹叩いたらクリアみたいなものはありません。ハイスコアだけ目指して頑張ってください。</p>
+								</div>
 							</div>
-						</div>
-					</a>
-				</div>
+						</a>
+					</div>
 
-				<div class="col-lg-4 col-md-6 col-sm-12 mb-4 px-2">
-					<a href="https://github.com/ryatca/MyTree" target="_blank" class="w-100">
-						<div class="card h-100 hover-shadow">
-							<img src="img/kanban.jpg" alt="card-img img-thumbnail" class="card-img-top"/>
-							<div class="card-body">
-								<h4 class="card-title text-none">タスク管理ボード</h4>
-								<p class="card-text text-none">ノリと勢いで作ったものです。どこ見てもスマホサイズになるような物がないなーと思ってBootstrapと絡ませてレスポンシブっぽくしました。ブラウザ消すと復活しない欠陥を持っています。</p>
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4 px-2">
+						<a href="https://github.com/ryatca/MyTree" target="_blank" class="w-100">
+							<div class="card h-100 hover-shadow">
+								<img src="img/kanban.jpg" alt="card-img img-thumbnail" class="card-img-top"/>
+								<div class="card-body">
+									<h4 class="card-title text-none">タスク管理ボード</h4>
+									<p class="card-text text-none">ノリと勢いで作ったものです。どこ見てもスマホサイズになるような物がないなーと思ってBootstrapと絡ませてレスポンシブっぽくしました。ブラウザ消すと復活しない欠陥を持っています。</p>
+								</div>
 							</div>
-						</div>
-					</a>
-				</div>
+						</a>
+					</div>
 
-				<div class="col-lg-4 col-md-6 col-sm-12 mb-4 px-2">
-					<a href="https://ryatca-todolist.firebaseapp.com/" target="_blank" class="w-100">
-						<div class="card h-100 hover-shadow">
-							<img src="img/todo.jpg" alt="card-img img-thumbnail" class="card-img-top"/>
-							<div class="card-body">
-								<h4 class="card-title text-none">ToDoList</h4>
-								<p class="card-text text-none">Vue.jsに慣れるために作成したものです。保存もできるしレスポンシブだが活用方法が見つからない。</p>
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4 px-2">
+						<a href="https://ryatca-todolist.firebaseapp.com/" target="_blank" class="w-100">
+							<div class="card h-100 hover-shadow">
+								<img src="img/todo.jpg" alt="card-img img-thumbnail" class="card-img-top"/>
+								<div class="card-body">
+									<h4 class="card-title text-none">ToDoList</h4>
+									<p class="card-text text-none">Vue.jsに慣れるために作成したものです。保存もできるしレスポンシブだが活用方法が見つからない。</p>
+								</div>
 							</div>
-						</div>
-					</a>
-				</div>
+						</a>
+					</div>
 
-				<div class="col-lg-4 col-md-6 col-sm-12 mb-4 px-2">
-					<a href="https://github.com/ryatca/million_strap" target="_blank" class="w-100">
-						<div class="card h-100 hover-shadow">
-							<img src="img/million.jpg" alt="card-img img-thumbnail" class="card-img-top"/>
-							<div class="card-body">
-								<h4 class="card-title text-none">million_strap</h4>
-								<p class="card-text text-none">初めてのSass。ミリシタ最高にハマってたのでミリオンオールスターの色を設定できるようにしました。色は調整中です</p>
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4 px-2">
+						<a href="https://github.com/ryatca/million_strap" target="_blank" class="w-100">
+							<div class="card h-100 hover-shadow">
+								<img src="img/million.jpg" alt="card-img img-thumbnail" class="card-img-top"/>
+								<div class="card-body">
+									<h4 class="card-title text-none">million_strap</h4>
+									<p class="card-text text-none">初めてのSass。ミリシタ最高にハマってたのでミリオンオールスターの色を設定できるようにしました。色は調整中です</p>
+								</div>
 							</div>
-						</div>
-					</a>
-				</div>
+						</a>
+					</div>
 
-				<div class="col-lg-4 col-md-6 col-sm-12 mb-4 px-2">
-					<a href="https://ryatca-chat-beta.web.app/" target="_blank" class="w-100">
-						<div class="card h-100 hover-shadow">
-							<img src="img/chat.jpg" alt="card-img img-thumbnail" class="card-img-top"/>
-							<div class="card-body">
-								<h4 class="card-title text-none">簡易文字板</h4>
-								<p class="card-text text-none">firebaseのRealtime Databaseを使ったもの。無法地帯になりました。</p>
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4 px-2">
+						<a href="https://ryatca-chat-beta.web.app/" target="_blank" class="w-100">
+							<div class="card h-100 hover-shadow">
+								<img src="img/chat.jpg" alt="card-img img-thumbnail" class="card-img-top"/>
+								<div class="card-body">
+									<h4 class="card-title text-none">簡易文字板</h4>
+									<p class="card-text text-none">firebaseのRealtime Databaseを使ったもの。無法地帯になりました。</p>
+								</div>
 							</div>
-						</div>
-					</a>
+						</a>
+					</div>
+
 				</div>
 			</div>
 		</div>
