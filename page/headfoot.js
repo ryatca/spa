@@ -13,25 +13,19 @@ Vue.component('spa-header',{
 	</nav>
 
 	<div class="bg-light collapse">
-		<router-link class="text-dark text-center" to="/spa/a">
+		<router-link class="text-dark text-center" to="/spa/about">
 			<h2 class="m-0 py-3">About</h2>
 		</router-link>
 	</div>
 
 	<div class="bg-light collapse">
-		<router-link class="text-dark text-center" to="/spa/b">
+		<router-link class="text-dark text-center" to="/spa/works">
 			<h2 class="m-0 py-3">Works</h2>
 		</router-link>
 	</div>
 
 	<div class="bg-light collapse">
-		<router-link class="text-dark text-center" to="/spa/c">
-			<h2 class="m-0 py-3">Blog</h2>
-		</router-link>
-	</div>
-
-	<div class="bg-light collapse">
-		<router-link class="text-dark text-center" to="/spa/d">
+		<router-link class="text-dark text-center" to="/spa/contact">
 			<h2 class="m-0 py-3">Contact</h2>
 		</router-link>
 	</div>
@@ -40,3 +34,13 @@ Vue.component('spa-header',{
 		`
 })
 
+Vue.component('spa-footer',{
+	template:
+	`
+	<footer class="footer mt-auto py-3">
+    <div class="container-fluid">
+    	<spa-link></spa-link>
+    </div>
+  </footer>
+	`
+})
