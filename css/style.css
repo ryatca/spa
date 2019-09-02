@@ -98,7 +98,11 @@ ul{
   stroke: #CE1B5F;
   stroke-width: 12;
   stroke-miterlimit:10;
-  animation: show 4s;
+/*  stroke-width: 6;*/
+  /*stroke-miterlimit:10;*/
+  stroke-dasharray: 200;
+  stroke-dashoffset: 800;
+  animation: draw 5s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out; 
@@ -109,7 +113,9 @@ ul{
   stroke: #06A1C4;
   stroke-width: 12;
   stroke-miterlimit:10;
-  animation: show 4s;
+  stroke-dasharray: 200;
+  stroke-dashoffset: 800;
+  animation: draw 7s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
@@ -123,10 +129,10 @@ ul{
   stroke-miterlimit:10;
   stroke-dasharray: 200;
   stroke-dashoffset: 800;
-  animation: draw 4s;
+  animation: draw 3s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;    
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes draw {
