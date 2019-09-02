@@ -85,14 +85,14 @@ ul{
 		left: 0;
 		right: 0;
 		margin: auto;
-		top: 49px;
-		font-size: 4rem;
+		top: 70px;
+		font-size: 2rem;
 		opacity: .9;
 		background-color: rgba(255,255,255,0);
 	}
 
 	.link-textsize{
-		font-size: 14px;
+		font-size: 12px;
 	}
 
 }
