@@ -1,49 +1,34 @@
 const home_kv = {
 	template:
 	`
-	<div class="jumbotron kv home-kv">
-		<div class="container-fluid jumbotron-container">
-		</div>
-	</div>
+ 		<h1 class="kv-text text-center text-white">HOME</h1>
 	`
 }
 
 const about_kv = {
 	template:
 	`
-	<div class="jumbotron kv about-kv">
-		<div class="container-fluid jumbotron-container">
-		</div>
-	</div>
+		<h1 class="kv-text text-center text-white">ABOUT</h1>
 	`
 }
 
 const works_kv = {
 	template:
 	`
-	<div class="jumbotron kv works-kv">
-		<div class="container-fluid jumbotron-container">
-		</div>
-	</div>
+		<h1 class="kv-text text-center text-white">WORKS</h1>
 	`
 }
 
 const contact_kv = {
 	template:
 	`
-	<div class="jumbotron kv contact-kv">
-		<div class="container-fluid jumbotron-container">
-		</div>
-	</div>
+		<h1 class="kv-text text-center text-white">CONTACT</h1>
 	`
 }
 
 const notfound_kv = {
 	template:
 	`
-	<div class="jumbotron kv notfound-kv">
-		<div class="container-fluid jumbotron-container">
-		</div>
-	</div>
+		<h1 class="kv-text text-center text-white">NOT FOUND</h1>
 	`
 }

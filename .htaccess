@@ -6,3 +6,8 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . index.html [L]
 </IfModule>
+
+<Files ~ "\.(html|php|jpe?g|gif|png|css|js|pdf)$">
+Header add Pragma "no-cache"
+Header set Cache-Control no-cache
+</Files>
