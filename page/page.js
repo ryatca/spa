@@ -53,7 +53,7 @@ Vue.component('spa-link',{
 	`
 	<footer class="fixed-bottom">
 		<div class="container-fluid">
-			<div class="row text-center bg-light">
+			<div class="row text-center bg-light link-textsize">
 				<router-link to="/spa/" class="col-3 d-block py-2"><i class="fas fa-angle-right"></i>Home</router-link>
 				<router-link to="/spa/about" class="col-3 d-block py-2"><i class="fas fa-angle-right"></i>About</router-link>
 				<router-link to="/spa/works" class="col-3 d-block py-2"><i class="fas fa-angle-right"></i>Works</router-link>
