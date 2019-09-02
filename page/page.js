@@ -9,15 +9,59 @@ Vue.component('click',{
 	},
 	template:'<button @click="count++"> {{count}} times.</button>'
 })
-//spaリンク
+
+//header部分
+Vue.component('spa-header',{
+	template:
+		`
+<div class="pos-f-t fixed-top shadow-deep">
+
+	<nav class="navbar navbar-light bg-light">
+		<button class="shadow-button border-none navbar-toggler" type="button" data-toggle="collapse" data-target=".collapse" aria-controls=".collapse" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<router-link class="text-dark m-0 p-0" to="/spa/home">
+			<p class="m-0 p-0 navtext">My page</p>
+		</router-link>
+	</nav>
+
+	<div class="bg-light collapse">
+		<router-link class="text-dark text-center" to="/spa/about">
+			<h2 class="m-0 py-3">About</h2>
+		</router-link>
+	</div>
+
+	<div class="bg-light collapse">
+		<router-link class="text-dark text-center" to="/spa/works">
+			<h2 class="m-0 py-3">Works</h2>
+		</router-link>
+	</div>
+
+	<div class="bg-light collapse">
+		<router-link class="text-dark text-center" to="/spa/contact">
+			<h2 class="m-0 py-3">Contact</h2>
+		</router-link>
+	</div>
+
+</div>
+		`
+})
+
+//spaリンク(footer)
 Vue.component('spa-link',{
 	template:
-	`<ul>
-		<li><i class="fas fa-angle-right"></i><router-link to="/spa/">Home</router-link></li>
-		<li><i class="fas fa-angle-right"></i><router-link to="/spa/about">About</router-link></li>
-		<li><i class="fas fa-angle-right"></i><router-link to="/spa/works">Works</router-link></li>
-		<li><i class="fas fa-angle-right"></i><router-link to="/spa/contact">Contact</router-link></li>
-	</ul>`
+	`
+	<footer class="fixed-bottom">
+		<div class="container-fluid">
+			<div class="row text-center bg-light">
+				<router-link to="/spa/" class="col-3 d-block py-2"><i class="fas fa-angle-right"></i>Home</router-link>
+				<router-link to="/spa/about" class="col-3 d-block py-2"><i class="fas fa-angle-right"></i>About</router-link>
+				<router-link to="/spa/works" class="col-3 d-block py-2"><i class="fas fa-angle-right"></i>Works</router-link>
+				<router-link to="/spa/contact" class="col-3 d-block py-2"><i class="fas fa-angle-right"></i>Contact</router-link>
+			</div>
+		</div>
+	</footer>
+	`
 })
 
 //キービジュアル

@@ -2,6 +2,10 @@
 	margin-top: 3.5rem;
 }
 
+.main-container{
+	margin-bottom: 3.5rem;
+}
+
 .shadow-lite{
 	box-shadow: 0 1px 6px rgba(0,0,0,0.26);
 }
@@ -59,46 +63,11 @@ ul{
 	left: 0;
 	right: 0;
 	margin: auto;
-	top: 40px;
-	font-size: 11rem;
+	top: 68px;
+	font-size: 8rem;
 	opacity: .9;
 	background-color: rgba(255,255,255,0);
 }
-/*
-.home-kv{
-	background: url(../img/home.jpg);
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center;
-}
-
-.about-kv{
-	background: url(../img/about.png);
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center;
-}
-
-.works-kv{
-	background: url(../img/works.png);
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center;
-}
-
-.contact-kv{
-	background: url(../img/contact.png);
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center;
-}
-
-.notfound-kv{
-	background: url(../img/notfound.png);
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center;
-}*/
 
 @media screen and ( max-width: 960px ){
 	.kv{
@@ -112,8 +81,8 @@ ul{
 		left: 0;
 		right: 0;
 		margin: auto;
-		top: 28px;
-		font-size: 5rem;
+		top: 49px;
+		font-size: 4rem;
 		opacity: .9;
 		background-color: rgba(255,255,255,0);
 	}
@@ -163,17 +132,19 @@ ul{
 @keyframes draw {
   to {
     stroke-dashoffset: 0;
- }
-    }
+ 	}
+}
 
 @keyframes show {
   0% {
     opacity: 0.8;
- }
+ 	}
+
   50% {
     opacity: 0.9;
- }
+ 	}
+
   100% {
     opacity: 0.8;
- }
-    }
+ 	}
+}

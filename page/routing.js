@@ -1,5 +1,5 @@
 const router = new VueRouter({
-	mode: 'history', //これを書かないとURLに/#/みたいに入る
+	mode: 'history', //これを書かないとURLに/#/みたいに入る(メッチャダサイ)
 	routes:[
 		{path:'/spa/home', components:{default: home, kv: home_kv}, alias:'/spa/'},
 		{path:'/spa/about',components:{default: about, kv: about_kv}},

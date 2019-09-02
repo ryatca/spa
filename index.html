@@ -6,21 +6,16 @@
 	<title>SPA - vue_route_simple</title>
 	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 	<link rel="stylesheet" href="css/common.css">
-	<style>
-		.test{
-			margin-bottom: 80rem;
-		}
-	</style>
 </head>
 <body>
 
 	<div id="wrapper">
 		<spa-header></spa-header>
 		<key-visual></key-visual>
-		<div class="container">
+		<div class="container main-container">
 			<router-view class="main"></router-view>
 		</div>
-		<spa-footer></spa-footer>
+		<spa-link></spa-link>
 	</div>
 
 	<script src="js/all.js"></script>
@@ -30,7 +25,6 @@
 	<script src="js/vue-router.js"></script>
 
 	<script src="page/kv.js"></script>
-	<script src="page/headfoot.js"></script>
 	<script src="page/page.js"></script>
 	<script src="page/routing.js"></script>
 </body>
