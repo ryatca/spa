@@ -50,7 +50,7 @@ ul{
 }
 
 .home-kv{
-	background: url(../img/home.png);
+	background: url(../img/home.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
@@ -82,4 +82,12 @@ ul{
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
+}
+
+@media screen and ( max-width: 960px ){
+	.kv{
+		position: relative;
+		height: 20vh;
+		min-height: 150px;
+	}
 }

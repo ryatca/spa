@@ -57,9 +57,9 @@ const home = {
 const about = {
 	template:
 	`
-	<div id="About" class="row shadow-lite con-radius mb-4">
+	<div id="About" class="row shadow-lite con-radius my-2 mx-1">
 		<div class="col-lg-12 col-sm-12 mb-4">
-			<h2 class="text-center mt-2 mb-2">About</h2>
+			<h2 class="text-center my-2">About</h2>
 		</div>
 
 
@@ -99,9 +99,9 @@ const about = {
 const works = {
 	template:
 	`
-		<div id="Works" class="row shadow-lite con-radius mb-4">
+		<div id="Works" class="row shadow-lite con-radius my-2 mx-1">
 			<div class="col-lg-12 col-sm-12 mb-4">
-				<h2 class="text-center fonts-Orbitron mt-2 mb-2"><img src="img/works.svg" alt="" /> Works</h2>
+				<h2 class="text-center my-2">Works</h2>
 				<div class="row">
 
 					<div class="col-lg-4 col-md-6 col-sm-12 mb-4 px-2">
